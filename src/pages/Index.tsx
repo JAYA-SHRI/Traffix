@@ -1,12 +1,21 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import TrafficHeader from "@/components/TrafficHeader";
+import StatisticsPanel from "@/components/StatisticsPanel";
+import VideoFeed from "@/components/VideoFeed";
+import ViolationsList from "@/components/ViolationsList";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <TrafficHeader />
+      
+      <main className="p-6">
+        <StatisticsPanel />
+        
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <VideoFeed />
+          <ViolationsList />
+        </div>
+      </main>
     </div>
   );
 };
