@@ -36,7 +36,7 @@ const ViolationsList = () => {
       id: "VL-2024-004",
       type: "Lane Violation",
       vehicle: "GHI-321",
-      location: "Highway Exit 12",
+      location: "Highway Exit 12, Neelambur, Coimbatore district, Tamilnadu, India-641064",
       time: "2024-01-15 14:25:33",
       severity: "Low",
       status: "Pending"
