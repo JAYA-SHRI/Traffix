@@ -27,7 +27,7 @@ const ViolationsList = () => {
       id: "VL-2024-003",
       type: "Illegal Parking",
       vehicle: "DEF-456",
-      location: "Bus Stop Zone A, Gandipuram, Coimbatore district, Tamilnadu",
+      location: "Bus Stop Zone A, Gandipuram, Coimbatore district, Tamilnadu, India-641987",
       time: "2024-01-15 14:28:10", 
       severity: "Medium",
       status: "Resolved"
