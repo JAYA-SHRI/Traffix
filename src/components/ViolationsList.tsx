@@ -9,7 +9,7 @@ const ViolationsList = () => {
       id: "VL-2024-001",
       type: "Speed Violation",
       vehicle: "ABC-123",
-      location: "Main St & 5th Ave",
+      location: "Main St & 5th Avenue,Chennai",
       time: "2024-01-15 14:32:15",
       severity: "High",
       status: "Pending"
