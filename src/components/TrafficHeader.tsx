@@ -1,15 +1,13 @@
 import { Camera, Settings, AlertTriangle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import cameraIcon from "@/assets/camera-icon.png";
-
 const TrafficHeader = () => {
-  return (
-    <header className="bg-gradient-card border-b border-border px-6 py-4">
+  return <header className="bg-gradient-card border-b border-border px-6 py-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img src={cameraIcon} alt="Traffic Monitor" className="h-8 w-8" />
           <div>
-            <h1 className="text-xl font-bold text-foreground">Traffic Violation Detection</h1>
+            <h1 className="text-xl font-bold text-foreground">Traffix</h1>
             <p className="text-sm text-muted-foreground">Real-time Video Analytics System</p>
           </div>
         </div>
@@ -29,8 +27,6 @@ const TrafficHeader = () => {
           </Button>
         </div>
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default TrafficHeader;
