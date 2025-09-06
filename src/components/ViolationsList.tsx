@@ -18,7 +18,7 @@ const ViolationsList = () => {
       id: "VL-2024-002", 
       type: "Red Light Running",
       vehicle: "XYZ-789",
-      location: "Park Rd Junction",
+      location: "Park Rd Junction, Coimbatore, India",
       time: "2024-01-15 14:30:42",
       severity: "Critical",
       status: "Under Review"
